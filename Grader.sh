@@ -9,8 +9,8 @@
 #!/bin/sh
 
 function contains () {
-  	local e
-  	for e in "${@:2}"
+ 	local e
+  for e in "${@:2}"
 	do 
 		if [ "$e" == "$1" ]; then 
 			echo 1
